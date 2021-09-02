@@ -1,0 +1,27 @@
+{
+  "name": "hot-takes",
+  "version": "1.0.0",
+  "description": "## Installation ##",
+  "main": "index.html",
+  "scripts": {
+    "start": "run-script-os",
+    "start:linux:darwin": "concurrently \"node ./node_modules/.bin/http-server -a localhost -p 8081\"  \"sleep 1 && open http://localhost:8081\"",
+    "start:win32": "node node_modules/live-server/live-server --port=8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "http-server": "^13.0.1",
+    "live-server": "^1.1.0",
+    "run-script-os": "^1.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6/issues"
+  },
+  "homepage": "https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6#readme"
+}
