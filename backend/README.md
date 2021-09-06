@@ -1,5 +1,3 @@
-# HOT TAKES
-
 ## Installation
 
 Avant d'installer les dépendances, exécutez la commande suivante dans votre terminal :
